@@ -12,6 +12,8 @@ pgAdmin / DBeaver ─TLS, allowlisted IPs─► :5432 ────────�
 You / Claude ─SSH key, allowlisted IPs or Tailscale─► :22    Remote Desktop ─Tailscale only─► :3389
 ```
 
+> **Want an AI assistant to guide you through it?** Open [AI_SETUP_PROMPT.md](AI_SETUP_PROMPT.md) and paste its prompt into Claude Code or Cursor on the server.
+
 **What's on the internet:**
 - Port 443, which only accepts traffic from Cloudflare.
 - Ports 5432 and 22, which only accept the IPs you allowlist.
